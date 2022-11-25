@@ -1,0 +1,30 @@
+<footer class="container text-center my-6 p-8 text-gray3">
+  <div class="py-3">
+    Email
+    <a href="mailto:hi@vishakhasawra.com"
+      ><strong class="text-white font-bold">hi@vishakhasawra.com</strong></a
+    >
+  </div>
+  <div class="flex justify-center items-center my-2 text-white">
+    <a href="{{ site.Data.links.youtube }}"
+      ><i class="w-6 inline-block mx-2">{{ partial "svg/youtube.svg"}}</i></a
+    >
+    <a href="{{ site.Data.links.linkedin }}"
+      ><i class="w-6 inline-block mx-2">{{ partial "svg/linkedin.svg"}}</i></a
+    >
+    <a href="{{ site.Data.links.github }}"
+      ><i class="w-6 inline-block mx-2">{{ partial "svg/github.svg"}}</i></a
+    >
+  </div>
+
+  <h6 class="text-white">Links</h6>
+
+  <div class="py-3 text-white">
+    <a href="/lessons">Lessons</a> | <a href="/tags">Tags</a> |
+    <a href="/privacy">Privacy</a>
+  </div>
+
+  <div class="text-xs text-white">
+    Copyright © {{ now.Format "2006"}} Vishakha Sawra <br />
+  </div>
+</footer>
