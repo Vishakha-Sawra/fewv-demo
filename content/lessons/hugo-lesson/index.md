@@ -1,20 +1,13 @@
 ---
 title: What is Hugo? How to install hugo on windows?
-lastmod: 2022-11-08T08:11:12-07:00
 publishdate: 2022-10-30T08:11:12-07:00
 author: Vishakha Sawra
 draft: false
-pro: true
 description: Hugo is a framework which is use to build static site generator.
 tags:
-  - Hugo
-  - Windows
+  - hugo
 
 youtube: N-QRjEJsBRU
-github:
-
-versions:
-  firebase-rules: 2.0.0
 ---
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: Terms
-lastmod: 2022-09-11T08:36:36-07:00
+lastmod: 2022-10-20T08:26:26-09:00
 draft: false
 ---
 

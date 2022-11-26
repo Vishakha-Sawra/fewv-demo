@@ -1,14 +1,11 @@
 ---
 title: Firebase Authentication With Email.
-lastmod: 2022-10-02T09:10:18+05:30
 publishdate: 2022-10-02T09:10:18+05:30
 author: Vishakha Sawra
 draft: false
-pro: true
 description: Firebase Authentication with the help of email and password
 tags:
-  - Firebase
-  - Email
+  - firebase
 
 youtube: 8L6QIynk0lk
 ---
@@ -17,7 +14,7 @@ In the post below I have provided the basic HTML, CSS and JavaScript code for fi
 
 ---
 
-### HTML Code
+## >> HTML Code
 
 In the HTML page don't forget to link your stylesheet and script file. In (Script) tag it's important to specify (type="module") otherwise our external JavaScript file won't load.
 
@@ -67,7 +64,7 @@ In the HTML page don't forget to link your stylesheet and script file. In (Scrip
 
 ---
 
-### CSS Code
+## >> CSS Code
 
 If in CSS you want to change the font-family, change it in import url and then in body or you can just remove the import url and change font-family in body.
 
@@ -143,7 +140,7 @@ body {
 
 ---
 
-### JavaScript Code
+## >> JavaScript Code
 
 In JavaScript provide your api key in place of YOUR_API_KEY from the project we created in firebase console.
 
@@ -192,6 +189,6 @@ signUp.addEventListener("click", (e) => {
 
 ---
 
-### Link To Youtube Video
+## >> Link To Youtube Video
 
 [Link to Youtube Video](https://youtu.be/8L6QIynk0lk)

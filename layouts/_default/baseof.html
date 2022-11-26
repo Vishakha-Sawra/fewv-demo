@@ -5,9 +5,8 @@
     <title>{{ .Page.Title }}</title>
     <link rel="shortcut icon" href="/img/logo4.png" type="image/x-icon">
     <link rel="stylesheet" href="/svelte/{{ .Site.Data.svelte.css }}" />
-    <script type="module" defer src="/svelte/{{ .Site.Data.svelte.js }}" /></script>
+    <script type="module" defer src="/svelte/{{ .Site.Data.svelte.js }}"></script>
 
-    <!-- pwa -->
     <link rel="shortcut icon" href="/img/logo4.png" type="image/x-icon">
     <link rel="apple-touch-icon" type="image/x-icon" href="/img/logo4.png" />
     <meta name="theme-color" content="#454e56">
@@ -29,7 +28,6 @@
     permalink="{{ .Permalink }}" 
     vimeo="{{ .Params.vimeo }}"
     youtube="{{ .Params.youtube }}"
-    free="{{ .Params.free }}"
     next="{{with .PrevInSection}}{{.Permalink}}{{end}}" 
     prev="{{with .NextInSection}}{{.Permalink}}{{end}}">
   </global-data>
@@ -45,17 +43,10 @@
     {{ end }}
 
 
-    <app-signin></app-signin>
-    <algolia-search></algolia-search>
-    <hi-mom></hi-mom>
-
-    <email-handler></email-handler>
-
     <route-loader>
       <div class="fixed w-full top-0 left-0 h-1 gradient-loader"></div>
     </route-loader>
-
-    <toast-message></toast-message>
+ 
     <scroll-up></scroll-up>
 
     </div>

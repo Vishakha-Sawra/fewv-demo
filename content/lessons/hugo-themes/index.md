@@ -7,15 +7,9 @@ draft: false
 pro: true
 description: Using hugo themes to build our own website/blog.
 tags:
-  - Hugo
+  - hugo
 
 youtube: XP_ikf4Jh18
-github:
-
-versions:
-  firebase-rules: 2.0.0
----
-
 ---
 
 ## >> How To Use [Hugo Themes](https://themes.gohugo.io/)?

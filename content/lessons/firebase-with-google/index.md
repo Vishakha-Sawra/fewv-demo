@@ -1,14 +1,11 @@
 ---
 title: Firebase Authentication With Google
-lastmod: 2022-10-22T08:42:28+05:30
 publishdate: 2022-10-22T08:42:28+05:30
 author: Vishakha Sawra
 draft: false
-pro: true
 description: Login/Sign-in with firebase authentication with the help of Google
 tags:
-  - Firebase
-  - Google
+  - firebase
 
 youtube: akbm4mD7X7U
 ---
@@ -17,7 +14,7 @@ In the post below I have provided the basic HTML, CSS and JavaScript code for fi
 
 ---
 
-### HTML Code
+## >> HTML Code
 
 In the HTML page don't forget to link your stylesheet and script file. In (Script) tag it's important to specify (type="module") otherwise our JavaScript won't load.
 
@@ -131,7 +128,7 @@ In JavaScript below provide your api key in place of YOUR_API_KEY from the proje
 
 ---
 
-### CSS Code
+## >> CSS Code
 
 If in CSS you want to change the font-family, change it in import url and then in body or you can just remove the import url and change font-family in body.
 
@@ -207,6 +204,6 @@ body {
 
 ---
 
-### Link To Youtube Video
+## >> Link To Youtube Video
 
 [Link to Youtube Video](https://youtu.be/akbm4mD7X7U)
