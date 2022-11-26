@@ -5,10 +5,6 @@
     <p class="my-0 text-white">Tags help you find your lessons</p>
   </header>
 
-  <div
-    class="mx-auto w-24 h-1 my-12 bg-gradient-to-r from-gray5 to-gray4 rounded-full"
-  ></div>
-
   {{ range .Pages }}
   <span class="inline-block p-2">
     <a href="{{.Permalink | relURL }}"
