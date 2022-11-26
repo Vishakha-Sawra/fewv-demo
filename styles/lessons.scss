@@ -4,14 +4,6 @@
   nav {
     ul {
       li {
-        ul {
-          @apply ml-1;
-
-          a {
-            @apply text-gray4 text-sm font-normal hover:text-orange-400 duration-300;
-          }
-        }
-
         a {
           @apply text-gray3 hover:text-gray2 duration-300;
         }
@@ -22,7 +14,7 @@
 
 .lesson-content {
   h2 {
-    @apply text-white inline-block my-6 border-b-2 border-dashed border-gray6 ;
+    @apply text-white inline-block my-6 border-gray6 ;
   }
   h3 {
     @apply text-gray3 font-sans font-bold my-3;
@@ -43,7 +35,7 @@
   }
 
   p a {
-    @apply text-blue-500 no-underline hover:text-orange-400 duration-200;
+    @apply text-teal-500 no-underline hover:text-yellow-400 duration-200;
   }
 
   figure {
