@@ -1,7 +1,7 @@
 {
-  "name": "fireship",
+  "name": "fewv",
   "version": "2.0.0",
-  "description": "Awesome content for developers",
+  "description": "Fly the friendly frontend",
   "main": "index.ts",
   "type": "module",
   "scripts": {

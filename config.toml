@@ -1,6 +1,6 @@
-baseURL = 'https://fireship.io/'
+baseURL = 'https://www.vishakhasawra.com/'
 languageCode = 'en-us'
-title = 'Fireship'
+title = 'FEWV'
 enableRobotsTXT = true
 
 [outputs]
@@ -13,7 +13,7 @@ mediaType = "application/json"
 notAlternative = true
 
 [params]
-mainSections = ["lessons", "snippets"]
+mainSections = ["lessons"]
 
 [params.algolia]
 vars = ["title", "description", "summary", "date", "publishdate", "lastmod", "permalink"]
