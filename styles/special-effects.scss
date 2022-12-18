@@ -2,7 +2,7 @@
 // Gradient Slide
 
 .gradient-text {
-  @apply bg-gradient-to-t from-fuchsia-500 to-indigo-500;
+  @apply bg-gradient-to-t from-indigo-500 to-fuchsia-500;
   background-clip: text;
   color:rgba(0,0,0,0);
   -webkit-background-clip:text;
