@@ -2,7 +2,7 @@
 title: TypeScript Compiler in FewV minutes.
 lastmod: 2022-12-15T08:11:12-07:00
 author: Vishakha Sawra
-draft: true
+draft: false
 description: Compiling TypeScript file into JavaScript file and working with configuration file.
 tags:
   - TypeScript
