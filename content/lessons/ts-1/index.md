@@ -1,8 +1,8 @@
 ---
-title: TypeScript Compiler in FewV minutes.
-lastmod: 2022-12-15T08:11:12-07:00
+title: TESTING TypeScript Compiler in FewV minutes.
+publishdate: 2022-12-15T08:11:12-07:00
 author: Vishakha Sawra
-draft: true
+draft: false
 description: Compiling TypeScript file into JavaScript file and working with configuration file.
 tags:
   - TypeScript
@@ -73,5 +73,3 @@ tsc --init
 7. Now to make it work create two folders named **src** and **dist** and move TypeScript file in **src** folder and JavaScript file in **dist** folder.
 
 ![folder](./img/TS.jpg)
-
----
