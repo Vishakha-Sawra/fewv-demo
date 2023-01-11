@@ -2,7 +2,7 @@
 title: FewV minutes of Arrays and Tupple in Typescript.
 publishdate: 2023-01-10T08:11:12-07:00
 author: Vishakha Sawra
-draft: false
+draft: true
 description: Let us understand Arrays and Tupple in Typescript
 tags:
   - typescript
