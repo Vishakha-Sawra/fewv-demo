@@ -1,11 +1,11 @@
 ---
-title: What is TypeScript? and How to Install it.
-lastmod: 2022-12-07T08:11:12-07:00
+title: FewV minutes of TypeScript and Installing it.
+publishdate: 2022-12-07T08:11:12-07:00
 author: Vishakha Sawra
 draft: false
-description: Using hugo themes to build our own website/blog.
+description: Let us understand What is TypeScript? and How to Install it.
 tags:
-  - TypeScript
+  - typescript
 
 youtube: RZA4_Uhn1Lc
 ---
