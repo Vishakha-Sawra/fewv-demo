@@ -5,7 +5,7 @@ author: Vishakha Sawra
 draft: false
 description: Compiling TypeScript file into JavaScript file and working with configuration file.
 tags:
-  - TypeScript
+  - typescript
 
 youtube: dpy23rMIsjA
 ---
