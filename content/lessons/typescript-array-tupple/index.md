@@ -2,12 +2,12 @@
 title: FewV minutes of Arrays and Tupple in Typescript.
 publishdate: 2023-01-10T08:11:12-07:00
 author: Vishakha Sawra
-draft: true
+draft: false
 description: Let us understand Arrays and Tupple in Typescript
 tags:
   - typescript
 
-youtube: RZA4_Uhn1Lc
+youtube: PYXkG_VeNXw
 ---
 
 ## >> Arrays in TypeScript
@@ -37,9 +37,13 @@ Console:
 5. Now if we want to add a value in **names** or **ages** we can do it with **push** property.
 
 ```ts
-names.push("Bob");
+const names: string[] = ["John", "Jane", "Mary"];
 
-ages.push(10);
+const ages: number[] = [25, 30, 27];
+
+names.push("Bob"); //adding Bob in names array
+
+ages.push(10); //adding 10 in ages array
 ```
 
 Console:
@@ -67,9 +71,9 @@ const books: readonly string[] = ["Harry Potter", "Lord of the Rings"];
 books.push("Almond"); //error => Property 'push' does not exist on type 'readonly string[]'
 ```
 
-## >> Type infer Arrays
+## >> Type infer in Arrays
 
-9. TypeScript can also infer(guess) the type of an array based on it's value.
+9. TypeScript can also infer (guess) the type of an array based on it's value.
 
 ```ts
 // Array type inference
@@ -77,7 +81,7 @@ let myFavBooks = ["Harry Potter", "Lord of the Rings"];
 // TypeScript infered the type of myFavBooks to string.
 ```
 
-10. But what if we by mistakenly we change the type of **myFavBooks**, TS will throw error.
+10. But what if we by mistakenly change the type of **myFavBooks**, TS will throw error.
 
 ```ts
 myFavBooks.push(21);
@@ -105,13 +109,19 @@ Console:
 ["John", 25]
 ```
 
-3. But we add an extra value, we will get error
+3. But when we add an extra value, we will get error
 
 ```ts
-let ourTuple: [string, number];
-ourTuple = ["John", 25, true];
+let ourTuple: [string, number]; //target
+ourTuple = ["John", 25, true]; //source
 // error => Type '[string, number, boolean]' is not assignable to type '[string, number]'.
 // Source has 3 element(s) but target allows only 2.
 ```
+
+4. So it is very important to know that the source and target element matches, not only in length but also in each element type.
+
+---
+
+Thank You, I hope this clears Array and Tupple in TypeScript.
 
 ---
